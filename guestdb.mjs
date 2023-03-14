@@ -1,4 +1,4 @@
-
+import * as chalk from 'chalk';
 
 // save data in a file
 
@@ -8,7 +8,7 @@
 
 //create
 const add =()=>{
-    return "adding";
+    console.log(chalk.blue("adding"));
 }
 
 // view function
